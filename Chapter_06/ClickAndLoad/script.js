@@ -1,19 +1,22 @@
-
-
-// use the commented-out code for reference, or just write your own. 
-
-//document.onclick = function() {
-//	alert("You clicked somewhere in the document");
-//};
-
-//function prepareEventHandlers() {	
-//	var myImage = document.getElementById("mainImage");
-//	myImage.onclick =  function() {
-//		alert("You clicked the image");
-//	}
+//document.onclick = function () {
+//    alert("You clicked somewhere on the document");
 //}
 
-//window.onload = function() {
-	// prep anything we need to
-//	prepareEventHandlers();
-//};
+
+function preparedEventHandlers() {
+
+    var myImage = document.getElementById("mainImage");
+
+    myImage.onclick = function() {
+        alert("You clicked somewhere on the main image!");
+    }
+    
+}
+
+
+
+window.onload = function() {
+
+    // call our handler once the document has completely loaded
+    preparedEventHandlers();
+}
