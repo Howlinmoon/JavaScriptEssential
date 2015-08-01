@@ -1,4 +1,4 @@
 # JavaScriptEssential
 
-Continue here next time: don't forget
-http://www.lynda.com/JavaScript-tutorials/Sending-messages-console/81266/87526-4.html
+Continue here next time:
+http://www.lynda.com/JavaScript-tutorials/Changing-DOM-elements/81266/87540-4.html
