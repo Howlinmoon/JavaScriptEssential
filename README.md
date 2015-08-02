@@ -1,4 +1,4 @@
 # JavaScriptEssential
 
 Continue here next time:
-http://www.lynda.com/JavaScript-tutorials/Changing-DOM-elements/81266/87540-4.html
+http://www.lynda.com/JavaScript-tutorials/Working-timers/81266/87546-4.html
