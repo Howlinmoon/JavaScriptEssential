@@ -12,7 +12,7 @@ window.onload = function() {
 */
 
 // Issue 2: calling a non-existent function
-
+/*
 function myFunction() {
 	console.log("You called myFunction");
 }
@@ -21,14 +21,16 @@ window.onload = function() {
 	// fixed the typo'd function name
     myFunction();
 }
-
+*/
 
 // Issue 2b: typos very common with DOM methods
-//var x = document.getElementByID("something");
+// fixed typo'd case for Id
+var x = document.getElementById("something");
 
 // Issue 2c: using a non-existent object method
-//var myArray = ["one","two","three"];
-//console.log(myArray.revers());
+var myArray = ["one","two","three"];
+//typo in 'reverse' fixed
+console.log(myArray.reverse());
 
 
 
