@@ -1,6 +1,6 @@
 // Issue 1: Syntax errors
 
-function myFunction( {
+function myFunction() {
 	console.log("You called myFunction);
 }
 
