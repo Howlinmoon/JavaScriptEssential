@@ -1,24 +1,27 @@
 // Issue 1: Syntax errors
-
-function myFunction() {
-	console.log("You called myFunction);
-}
-
-window.onload = function() {
-	myFunction();
-}
-
-
-// Issue 2: calling a non-existent function
 /*
 function myFunction() {
 	console.log("You called myFunction");
 }
 
 window.onload = function() {
-	myfunction();
+	myFunction();
 }
+
+// fixed
 */
+
+// Issue 2: calling a non-existent function
+
+function myFunction() {
+	console.log("You called myFunction");
+}
+
+window.onload = function() {
+	// fixed the typo'd function name
+    myFunction();
+}
+
 
 // Issue 2b: typos very common with DOM methods
 //var x = document.getElementByID("something");
