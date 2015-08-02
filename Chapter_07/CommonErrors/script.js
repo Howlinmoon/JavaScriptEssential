@@ -39,6 +39,7 @@ console.log(myArray.reverse());
 // make sure the DOM is loaded - use window.load
 var myImage = document.getElementById("someImage");
 
+/*
 // Issue 5 - assignment instead of equality
 // This is NOT technically an error
 
@@ -51,18 +52,19 @@ if ( a == b) {
 } else {
 	console.log("This is what I expect!")
 }
-
+*/
 
 // Issue 6: missing parameters in function calls:
 // This is NOT an error - it's just an unexpected result.
-/*
+
 function calculateSum(a,b,c) {
 	return a + b + c;
 }
 
-var result = calculateSum(500,1000);
+// fixed by giving the missing 3rd parameter
+var result = calculateSum(500,1000, 100);
 console.log(result);
 
-*/
+
 
 
