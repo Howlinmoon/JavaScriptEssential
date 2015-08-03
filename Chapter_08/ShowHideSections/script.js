@@ -1,4 +1,5 @@
 // show and hide sections of a form
+// setting the style to 'none' seems to hide the relevant div - but why?
 function preparePage() {
 	document.getElementById("brochures").onclick = function() {
 		if (document.getElementById("brochures").checked) {

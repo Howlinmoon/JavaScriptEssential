@@ -1,4 +1,4 @@
 # JavaScriptEssential
 
 Continue here next time:
-http://www.lynda.com/JavaScript-tutorials/Working-timers/81266/87546-4.html
+http://www.lynda.com/JavaScript-tutorials/Changing-inline-styles/81266/87558-4.html
