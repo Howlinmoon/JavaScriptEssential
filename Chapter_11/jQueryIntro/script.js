@@ -11,10 +11,12 @@
 //jQuery("li").addClass("highlight");
 
 // find the last li
-jQuery("li:last").addClass("highlight");
+//jQuery("li:last").addClass("highlight");
 
 // find any paragraph that contain the word "packages"
 //jQuery("p:contains('packages')").addClass("highlight");
+// the abbreviated version of jQuery - and finding the 'last' packages
+$("p:contains('packages'):last").addClass("highlight");
 
 // EFFECTS
 
@@ -25,27 +27,27 @@ jQuery("li:last").addClass("highlight");
 
 // EVENTS
 
-// simple click
-//$("#pageID").click(function() {
-//   $("#pageID").text("You clicked me!");
-//});
+// simple click example, click on the word 'Tours' on the top of the page
+$("#pageID").click(function() {
+   $("#pageID").text("You clicked me!");
+});
 
 // add $(this) to refer to current element
-//$("h2").click(function() {
-//   $(this).text("You clicked me!");
-//});
+$("h2").click(function() {
+   $(this).text("You clicked me!");
+});
 
 // add effects - this makes each paragraph fade out when clicked.
-//$("p").click(function() {
-//  $(this).fadeOut(2000);
-//});
+$("p").click(function() {
+  $(this).fadeOut(2000);
+});
 
 // Page load events - instead of window.onload()
-//$(document).ready(function () {
-//  $("#pageID").text("The DOM is fully loaded.");
-//});
+$(document).ready(function () {
+  $("#pageID").text("The DOM is fully loaded.");
+});
 
 // you don't have to worry about accidentally calling it multiple times.
-//$(document).ready(function () {
-//   $("h1").css("color","red");
-//});
+$(document).ready(function () {
+   $("h1").css("color","red");
+});
