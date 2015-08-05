@@ -21,3 +21,8 @@ window.onresize = function () {
     adjustStyle();
 };
 
+// also call this when the window is first loaded
+window.onload = function () {
+    adjustStyle();
+};
+
